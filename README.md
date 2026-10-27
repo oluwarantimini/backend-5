@@ -173,3 +173,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Security reports go through
 ## License
 
 [MIT](LICENSE)
+
+## Per-Merchant Rate Limiting\n\nAPI rate limiting must be applied per merchant API key, not per IP address. IP-based limits are ineffective against distributed clients and allow a high-volume merchant to starve others on the same infrastructure.
